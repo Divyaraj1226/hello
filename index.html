@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>LOgIn page</title>
+   <link rel="stylesheet" href="./CSS/index.css">
+  <script src="./JS/index.js" defer></script>
+</head>
+<body>
+    <div id="outerdiv">
+        <div id="innerdiv">
+            <h1 id="heading"  >LOGIN</h1>
+            <form>
+            <div id="emailDiv">
+                <input class="in" id="userEmail"   type="email" placeholder="Enter the email"></div>
+            <div id="passdiv">
+                <input class="in" id="userpass" type="password" placeholder="Enter the password">
+                <img id="visible" src="./ASSET/LOGO/closeEye.jpg" onmousedown="visiblePass()" onmouseup="inVisiblePass()">
+            </div>
+            <span id="status"></span>
+            <input id="Loginbut" type="button" value="LOGIN" onclick="accesstopage()">
+
+        </div>
+    </div>
+</form>
+    
+</body>
+</html>
